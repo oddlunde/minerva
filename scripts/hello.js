@@ -5,7 +5,7 @@ module.exports = function(robot) {
   robot.hear(/!Y/, function (res) {
     res.send("Kjør da!")
   }),
-  robot.hear(/!Våryr/, function (res) {
+  robot.hear(/!våryr/, function (res) {
     res.send("13.april!")
   })
 }
